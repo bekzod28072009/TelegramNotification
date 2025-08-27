@@ -10,7 +10,7 @@ fun main() {
     val bot = Bot.Builder()
         .token("YOUR_TELEGRAM_TOKEN")
         .logLevel(LogLevel.Network.Body)
-        .build()
+        .build() 
 
     bot.dispatch {
         command("start") {
